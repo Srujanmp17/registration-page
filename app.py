@@ -12,12 +12,12 @@ def register():
          father_name=request.form['father_name']
          mother_name=request.form['mother_name']
          course=request.form['course']
-         return redirect(url_for('done'))
+         return redirect(url_for('success'))
     else:
          return render_template('register.html')
          
 @app.route('/sucess')
-def done():
+def success():
      return render_template('done.html')
 
 if __name__=="__main__":
