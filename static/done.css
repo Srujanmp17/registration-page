@@ -1,0 +1,9 @@
+.sr{
+    width: auto;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    align-content: center;
+    display: flex;
+    text-align: center;
+}
